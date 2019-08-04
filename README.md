@@ -22,7 +22,7 @@
 3. Clone repository
 
 ```
-  git clone ssh://git@git.digihcs.vn:1210/chintrinh/rtalunchapp-axices-backend.git
+  git clone ssh://git@git.digihcs.vn:1210/chintrinh/rtalunchapp-acexis-backend.git
 ```
 
 4. Cd into directory
@@ -79,7 +79,7 @@ touch .env
   git pull origin cicd
 
   handle conflicts
-  npm start
+  npm run start:dev
 
   git push origin <your_branch>
 ```

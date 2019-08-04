@@ -1,0 +1,10 @@
+type Site {
+	_id: ID!
+	name: String!
+	createdAt: String!
+	updatedAt: String!
+}
+
+type Query {
+	site(_id: String!): Site
+}
